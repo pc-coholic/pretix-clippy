@@ -1,0 +1,11 @@
+{% load static %}
+{% load compress %}
+
+{% compress css %}
+    <link type="text/css" rel="stylesheet" href="{% static "pretix_clippy/clippy.css" %}">
+{% endcompress %}
+
+{% compress js %}
+  <script type="text/javascript" src="{% static "pretix_clippy/clippy.js" %}" async></script>
+  <script type="text/javascript" src="{% static "pretix_clippy/pretix_clippy.js" %}" async></script>
+{% endcompress %}

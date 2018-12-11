@@ -1,0 +1,3 @@
+recursive-include pretix_clippy/static *
+recursive-include pretix_clippy/templates *
+recursive-include pretix_clippy/locale *
