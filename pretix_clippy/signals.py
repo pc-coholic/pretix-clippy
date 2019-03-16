@@ -1,7 +1,7 @@
 from django.dispatch import receiver
 from django.template.loader import get_template
-from pretix.control.signals import html_page_start, nav_topbar
 from django.utils.translation import pgettext, ugettext_lazy as _
+from pretix.control.signals import html_page_start, nav_topbar
 
 
 @receiver(html_page_start, dispatch_uid="clippy_html_page_start")
