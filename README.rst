@@ -19,14 +19,25 @@ Development setup
 6. Restart your local pretix server. You can now use the plugin from this repository for your events by enabling it in
    the 'plugins' tab in the settings.
 
+Acknowledgements
+----------------
+- `Perhanid's clippy.js fork`_, based on `smore Inc's clippy.js`_
+- `Joe Walnes' jquery-simple-context-menu`_
+- `js-cookie`_
+- `Raphael Michel`_ for the very dirty `context_processors` hack
 
 License
 -------
 
-Copyright 2018 Martin Gross
+Copyright 2019 Martin Gross
 
 Released under the terms of the Apache License 2.0
 
 
 .. _pretix: https://github.com/pretix/pretix
 .. _pretix development setup: https://docs.pretix.eu/en/latest/development/setup.html
+.. _perhanid's clippy.js fork: https://github.com/perhanid/clippy.js
+.. _smore Inc's clippy.js: https://github.com/smore-inc/clippy.js
+.. _Joe Walnes' jquery-simple-context-menu: https://github.com/joewalnes/jquery-simple-context-menu/
+.. _Raphael Michel: https://github.com/raphaelm
+.. _js-cookie: https://github.com/js-cookie/js-cookie
