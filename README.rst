@@ -24,6 +24,7 @@ Acknowledgements
 - `Perhanid's clippy.js fork`_, based on `smore Inc's clippy.js`_
 - `Joe Walnes' jquery-simple-context-menu`_
 - `js-cookie`_
+- `_Shalom Yerushalmy's css-wordart`_
 - `Raphael Michel`_ for the very dirty `context_processors` hack
 
 License
@@ -41,3 +42,4 @@ Released under the terms of the Apache License 2.0
 .. _Joe Walnes' jquery-simple-context-menu: https://github.com/joewalnes/jquery-simple-context-menu/
 .. _Raphael Michel: https://github.com/raphaelm
 .. _js-cookie: https://github.com/js-cookie/js-cookie
+.. _Shalom Yerushalmy's css-wordart: https://github.com/yershalom/css-wordart

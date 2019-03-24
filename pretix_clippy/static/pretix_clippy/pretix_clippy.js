@@ -1,5 +1,10 @@
 $(document).ready(function() {
     if (Cookies.get('hideAgent') !== "true") {
+        //effects = ['rainbow', 'blues', 'superhero', 'radial', 'tilt', 'purple', 'horizon', 'italicOutline', 'slate'];
+        effects = ['rainbow', 'blues', 'superhero', 'radial', 'tilt', 'purple', 'horizon'];
+        $('.navbar-header:first').addClass('wordart');
+        $('.navbar-header:first').addClass(effects[Math.floor(Math.random() * effects.length) + 1]);
+
         loadClippy();
     }
 });
@@ -12,6 +17,8 @@ $('a').has('span.fa.fa-paperclip').click(function(e) {
 function loadClippy() {
     $('a').has('span.fa.fa-paperclip').hide();
     Cookies.remove('hideAgent');
+
+    $('.navbar-brand:first').addClass('text');
 
     clippy.load('Clippy', function(agent) {
         agent.show();
