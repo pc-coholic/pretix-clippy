@@ -100,7 +100,7 @@ function loadClippy() {
 
                     case 'basics':
                         //agent.stop();
-                //agent.animate();
+                        //agent.animate();
                         agent.ask(
                             gettext('It looks like you\'re creating a new event. Would you like help?'),
                             [gettext('Yes'), gettext('No')],
@@ -355,7 +355,7 @@ function loadClippy() {
             case ($(location).attr('pathname').match(/^\/control\/event\/[a-zA-Z0-9.-]+\/[a-zA-Z0-9.-]+\/statistics\/$/) || {}).input:
                 //agent.stop();
                 //agent.animate();
-                agent.speak(gettext("So many sales graphs. Just lacks some WordArt, if you ask me..."));
+                agent.speak(gettext("So many sales graphs. Just lacks some WordArt™, if you ask me..."));
                 break;
 
 
@@ -525,7 +525,7 @@ function loadClippy() {
             case ($(location).attr('pathname').match(/^\/control\/event\/[a-zA-Z0-9.-]+\/[a-zA-Z0-9.-]+\/certificates\/[0-9]+\/editor$/) || {}).input:
                 //agent.stop();
                 //agent.animate();
-                agent.speak(gettext("If you have already designed a PDF-ticket or a badge, you know the drill. Even the editor is the same! But still, sadly no WordArt here."));
+                agent.speak(gettext("If you have already designed a PDF-ticket or a badge, you know the drill. Even the editor is the same! But still, sadly no WordArt™ here."));
                 break;
 
 
@@ -721,8 +721,8 @@ function loadClippy() {
                 }, {
                     label: 'Animate!',
                     action: function() {
-                        //agent.stop();
-                //agent.animate();
+                        agent.stop();
+                        agent.animate();
                     }
                 },
             ]
