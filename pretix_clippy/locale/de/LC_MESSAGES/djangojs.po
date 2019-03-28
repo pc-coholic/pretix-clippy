@@ -1,0 +1,1022 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: static/pretix_clippy/pretix_clippy.js:31
+msgid "Oh no! Looks like you forgot to properly fill out a field!"
+msgstr "Oh nein! Sieht so aus, als ob du vergessen hast ein Feld auszufüllen!"
+
+#: static/pretix_clippy/pretix_clippy.js:76
+msgid "Good morning!"
+msgstr "Guten Morgen!"
+
+#: static/pretix_clippy/pretix_clippy.js:78
+msgid "Good afternoon!"
+msgstr "Schönen Nachmittag!"
+
+#: static/pretix_clippy/pretix_clippy.js:80
+msgid "Good evening!"
+msgstr "Guten Abend!"
+
+#: static/pretix_clippy/pretix_clippy.js:93
+#: static/pretix_clippy/pretix_clippy.js:110
+msgid "It looks like you're creating a new event. Would you like help?"
+msgstr ""
+"Sieht so aus, als ob du eine neue Veranstaltung erstellst. Kann ich dir "
+"helfen?"
+
+#: static/pretix_clippy/pretix_clippy.js:94
+#: static/pretix_clippy/pretix_clippy.js:96
+#: static/pretix_clippy/pretix_clippy.js:111
+#: static/pretix_clippy/pretix_clippy.js:113
+#: static/pretix_clippy/pretix_clippy.js:541
+#: static/pretix_clippy/pretix_clippy.js:543
+msgid "Yes"
+msgstr "Ja"
+
+#: static/pretix_clippy/pretix_clippy.js:94
+#: static/pretix_clippy/pretix_clippy.js:111
+#: static/pretix_clippy/pretix_clippy.js:541
+msgid "No"
+msgstr "Nein"
+
+#: static/pretix_clippy/pretix_clippy.js:98
+msgid ""
+"Here, you first need to decide for the organizer the event belongs to. You "
+"will not be able to change this association later. This will determine "
+"default settings for the event, as well as access control to the event’s "
+"settings."
+msgstr ""
+"Hier musst du dich zunächst entscheiden, zu welchem Veranstalter diese "
+"Veranstaltung gehört. Diese Verknüpfung kannst du später nicht mehr ändern. "
+"Diese Einstellung definiert auch die Voreinstellungen der Veranstaltung, "
+"sowie die Zugriffsrechte zu dieser."
+
+#: static/pretix_clippy/pretix_clippy.js:99
+msgid ""
+"Second, you need to select the languages that the ticket shop should be "
+"available in. You can change this setting later, but if you select it "
+"correctly now, it will automatically ask you for all descriptions in the "
+"respective languages starting from the next step."
+msgstr ""
+"Als Zweites müssen die Sprachen ausgewählt werden, in welchen der Ticketshop "
+"verfügbar sein wird. Du kannst diese Einstellung auch später noch ändern - "
+"aber wenn du diese Einstellung schon jetzt korrekt auswählst, wirst du im "
+"folgenden direkt gebeten alle relevanten Texte in allen Sprachen einzugeben."
+
+#: static/pretix_clippy/pretix_clippy.js:100
+msgid ""
+"Last on this page, you can decide if this event represents an event series. "
+"In this cases, the event will turn into multiple events included in once, "
+"meaning that you will get one combined ticket shop for multiple actual "
+"events. This is useful if you have a large number of events that are very "
+"similar to each other and that should be sold together (i.e. users should be "
+"able to buy tickets for multiple events at the same time). Those single "
+"events can differ in available products, quotas, prices and some meta "
+"information, but most settings need to be the same for all of them. We "
+"recommend to use this feature only if you really know that you need it and "
+"if you really run a lot of events, not if you run e.g. a yearly conference."
+msgstr ""
+"Als letztes kannst du auf dieser Seite auswählen, ob diese Veranstaltung "
+"eine Veranstaltungsreihe ist. In diesem Falle wird die Veranstaltung in "
+"mehrere aufgeteilt, aber gemeinsam verwaltet. Das bedeutet, dass du einen "
+"kombinierten Ticketshop für mehrere Veranstaltungstermine erhälst. Das ist "
+"sehr praktisch bei Veranstaltungen, welche sich sehr ähnlich sind und "
+"zusammen verkauft werden (also wenn Kunden in der Lage sein sollen für "
+"mehrere Termine gleichzeitig Tickets zu erwerben). Die einzelnen Termine "
+"können unterschiedliche Produkte, Quotas, Preise und Meta-Daten beinhalten, "
+"aber die meisten Einstellungen müssen gleich sein. Wir empfehlen dir, diese "
+"Einstellung nur zu nutzen, wenn du wirklich weißt, dass du sie benötigst und "
+"wenn du wirklich viele Veranstaltungen organisierst - nicht wenn du nur z.B. "
+"eine jährliche Konferenz organisierst."
+
+#: static/pretix_clippy/pretix_clippy.js:101
+msgid "Once you set these values, you can proceed to the next step."
+msgstr ""
+"Sobald du dieese Einstellungen ausgewählt hast, kannst du zum nächsten "
+"Schritt fortfahren."
+
+#: static/pretix_clippy/pretix_clippy.js:115
+msgid ""
+"In this step, you will be asked more detailed questions about your event. In "
+"particular, you can fill in the following fields"
+msgstr ""
+"In diesem Schritt wirst du nach detailierteren Informationen zu deiner "
+"Veranstaltung gefragt. Insbesondere kannst du folgende Felder ausfüllen:"
+
+#: static/pretix_clippy/pretix_clippy.js:116
+msgid ""
+"Name: This is the public name of your event. It should be descriptive and "
+"tell both you and the user which event you are dealing with, but should "
+"still be concise. You probably know how your event is named already ;)"
+msgstr ""
+"Veranstaltungstitel: Dies ist der öffentliche Name deiner Veranstaltung. Er "
+"sollte ausreichend deskriptiv sein, um sowohl dir als auch deinen Kunden "
+"klar ist um was es geht, aber auch nicht zu lang sein. Du weiß vermutlich "
+"schon, wie deine Veranstaltung heißt ;)"
+
+#: static/pretix_clippy/pretix_clippy.js:117
+msgid ""
+"Short form: This will be used in multiple places. For example, the URL of "
+"your ticket shop will include this short form of your event name, but it "
+"will also be the default prefix e.g. for invoice numbers. We recommend to "
+"use some natural abbreviation of your event name, maybe together with a "
+"date, of no more than 10 characters. This is the only value on this page "
+"that can’t be changed later."
+msgstr ""
+"Kurzform: Dies wird an mehreren Stellen genutzt. Zum Beispiel, die URL "
+"deines Ticket-Shops wird die Kurzform deines Veranstaltungsnamens nutzen. "
+"Sie wird aber auch standardmäßig deinen Rechnugsnummern vorangestellt. Wir "
+"empfehlen, eine Kurzform oder Abkürzung deines Veranstaltungsnamens zu "
+"nutzen, eventuell ergänzt um die Jahreszahl. Das ganze sollte kürzer als 10 "
+"Zeichen sein. Dies ist der einzige Wert auf dieser Seite, den du später "
+"nicht mehr ändern kannst."
+
+#: static/pretix_clippy/pretix_clippy.js:118
+msgid ""
+"Event start time: The date and time that your event starts at. You can later "
+"configure settings to hide the time, if you don’t want to show that."
+msgstr ""
+"Veranstaltungsbeginn: Datum und Uhrzeit, zu der deine Veranstaltung beginnt. "
+"Du kannst später in den Einstellungen die Uhrzeit ausblenden lassen, wenn du "
+"sie nicht anzeigen möchtest."
+
+#: static/pretix_clippy/pretix_clippy.js:119
+msgid ""
+"Event end time: The date and time your event ends at. You can later "
+"configure settings to hide this value completely – or you can just leave it "
+"empty. It’s optional!"
+msgstr ""
+"Veranstaltungsende: Datum und Uhrzeit, zu der deine Veranstaltung beendet "
+"wird. Du kannst später in den Einstellungen die Uhrzeit ausblenden lassen, "
+"wenn du sie nicht anzeigen möchtest - oder du kannst den Wert auch direkt "
+"leer lassen - er ist komplett optional!"
+
+#: static/pretix_clippy/pretix_clippy.js:120
+msgid ""
+"Location: This is the location of your event in a human-readable format. We "
+"will show this on the ticket shop frontpage, but it might also be used e.g. "
+"in Wallet tickets."
+msgstr ""
+"Veranstaltungsort: Der Ort deiner Veranstaltung in einem menschenleserlichen "
+"Format. Wir werden diesen Wert auf der Startseite deines Ticket-Shops "
+"anzeigen, aber er kann auch an anderen Stellen genutzt werden, bspw. auf "
+"Wallet-Tickets."
+
+#: static/pretix_clippy/pretix_clippy.js:121
+msgid ""
+"Event currency: This is the currency all prices and payments in your shop "
+"will be handled in."
+msgstr ""
+"Veranstaltungswährung: In dieser Währung werden wir alle Preise in dienem "
+"Shop anzeigen und verarbeiten."
+
+#: static/pretix_clippy/pretix_clippy.js:122
+msgid ""
+"Sales tax rate: If you need to pay a form of sales tax (also known as VAT in "
+"many countries) on your products, you can set a tax rate in percent here "
+"that will be used as a default later. After creating your event, you can "
+"also create multiple tax rates or fine-tune the tax settings."
+msgstr ""
+"Umsatzsteuersatz: Sofern du irgendeine Art von Umsatzsteuer (auch als MwSt. "
+"in vielen Ländern bekannt) auf deinen Produkten auszeichnen musst, kannst du "
+"hier diese in Prozent hier einstellen. Nachdem du deine Veranstaltung "
+"erstellt hast, kannst du den Wert aber auch noch ändern bzw. die Steuer-"
+"Einstellungen feintunen."
+
+#: static/pretix_clippy/pretix_clippy.js:123
+msgid ""
+"Default language: If you selected multiple supported languages in the "
+"previous step, you can now decide which one should be displayed by default."
+msgstr ""
+"Standardsprache: Falls du im vorherigen Schritt mehrere Sprachen für deinen "
+"Ticket-Shop ausgewählt hast, kannst du hier diejenige auswählen, welche "
+"standardmäßig verwendet wird."
+
+#: static/pretix_clippy/pretix_clippy.js:124
+msgid ""
+"Start of presale: If you set this date, no ticket will be sold before this "
+"date. We normally recommend not to set this date during event creation "
+"because it will make testing your shop harder."
+msgstr ""
+"Beginn des Vorverkaufs: Falls du diesen Wert setzt, wird kein Ticket vor "
+"diesem Termin verkauft werden. Wir empfehlen normalerweise diesen Wert nicht "
+"sofort bei Anlage der Veranstaltung zu setzen, da das Testen des Shops "
+"dadurch erschwert wird."
+
+#: static/pretix_clippy/pretix_clippy.js:125
+msgid ""
+"End of presale: If you set this date, no ticket will be sold after this date."
+msgstr ""
+"Ende des Vorverkaufs: Falls du dieses Datum setzt, werden keine Tickets nach "
+"diesem Termin verkauft."
+
+#: static/pretix_clippy/pretix_clippy.js:126
+msgid ""
+"If all of this is set, you can proceed to the next step. If this is your "
+"first event, there will not be a next step and you are done!"
+msgstr ""
+"Wenn du alle Einstellungen vorgenommen hast, kannst du zum nächsten Schritt "
+"übergehen. Sollte dies deine erste Veranstaltung sein, wird es nicht ein Mal "
+"einen nächsten Schritt geben und du bist dann bereits fertig!"
+
+#: static/pretix_clippy/pretix_clippy.js:135
+msgid "Did you know? In the event overview, you can also clone events."
+msgstr ""
+"Wusstest du schon, dass du in der Veranstaltungsübersicht auch "
+"Veranstaltungen duplizieren kannst?"
+
+#: static/pretix_clippy/pretix_clippy.js:136
+msgid "Sure, whatever..."
+msgstr "Ja, klar.."
+
+#: static/pretix_clippy/pretix_clippy.js:136
+#: static/pretix_clippy/pretix_clippy.js:138
+msgid "Stop creating this event and take me there!"
+msgstr "Breche das erstellen dieser Veranstaltung ab und bring mich dorthin!"
+
+#: static/pretix_clippy/pretix_clippy.js:151
+msgid ""
+"Have you seen our fancy new Clone-Button? It makes duplicating events even "
+"easier!"
+msgstr ""
+"Hast du schon unseren tollen, neuen Duplizieren-Knopf gesehen? Er macht das "
+"Klonen Veranstaltungen noch viel einfacher!"
+
+#: static/pretix_clippy/pretix_clippy.js:155
+msgid "Great event you've got there!"
+msgstr "Tolle Veranstaltung hast du da!"
+
+#: static/pretix_clippy/pretix_clippy.js:158
+msgid "And you already have {num} attendees, that have ordered a ticket!"
+msgstr ""
+"Und du hast bereits {num} Teilnehmer, die schon ein Ticket bestellt haben!"
+
+#: static/pretix_clippy/pretix_clippy.js:164
+msgid ""
+"In this section, you can edit the general settings for your event. Specific "
+"settings like - for example for Payments - can be found in the left hand "
+"sidebar."
+msgstr ""
+"In diesem Abschnitt kannst du die grundlegenden Einstellungen deiner "
+"Veranstaltung ändern. Spezifische Einstellungen wie bspw. für "
+"Zahlungsmethoden - findest du in der Navigation auf der linken Seite."
+
+#: static/pretix_clippy/pretix_clippy.js:168
+msgid ""
+"Here you can set up the payment methods, you want to accept. Don't forget to "
+"enable the corresponding plugin first by clicking the \"Plugins\"-button in "
+"the left hand navigation."
+msgstr ""
+"Hier kannst du die Zahlungsmethoden konfigurieren, welche du akzeptieren "
+"möchtest. Vergiss nicht, vorher die entsprechende Erweiterung zu aktivieren, "
+"indem du auf den Menüpunkt \"Erweiterungen\" in der Navigation auf der "
+"linken Seite klickst."
+
+#: static/pretix_clippy/pretix_clippy.js:172
+msgid ""
+"The banktransfer payment method will ask your participants to transfer the "
+"amount due into your bank account. However, it is up to you to mark the "
+"corresponding orders by hand as paid."
+msgstr ""
+"Die Zahlungsmethode Banküberweisung wird deine Teilnehmer bitten den "
+"fälligen Betrag auf dein Bankkonto zu überweisen. Allerdings musst du die "
+"jeweiligen Bestellungen später von Hand als Bezahlt markieren."
+
+#: static/pretix_clippy/pretix_clippy.js:176
+#: static/pretix_clippy/pretix_clippy.js:189
+msgid ""
+"An excellent choice for a payment method! Especially if you offer payment at "
+"the door."
+msgstr ""
+"Eine exzellente Wahl für eine Zahlungsmethode! Besonders wenn du Vor-Ort "
+"Zahlung anbietest."
+
+#: static/pretix_clippy/pretix_clippy.js:181
+msgid ""
+"y0U Mu57 83 v3Ry 73CHy 1F y0U 0FF3r 817C01n p4Ym3N7 @ y0Ur 3V3n72! 1 l1K3 17!"
+msgstr ""
+
+#: static/pretix_clippy/pretix_clippy.js:185
+msgid ""
+"All payments made through this payment provider will automatically marked as "
+"paid! Great for testing your ticket shop in test mode, but do not forget to "
+"disable it before going live!"
+msgstr ""
+"Alle Zahlungen, die durch diesen Zahlungsdienstleister vorgenommen werden, "
+"werden automatisch als Bezahlt markiert. Sehr praktisch um deinen Ticket-"
+"Shop im Test-Modus auszuprobieren, aber vergiss nicht diese Erweiterung "
+"wieder abzuschalten, bevor du mit deinem Shop live gehst!"
+
+#: static/pretix_clippy/pretix_clippy.js:193
+#: static/pretix_clippy/pretix_clippy.js:209
+#: static/pretix_clippy/pretix_clippy.js:213
+msgid ""
+"{provider} supports many different payment methods. Just make sure you also "
+"have the payment methods of your choice also enabled in your {provider}-"
+"account before enabling them here."
+msgstr ""
+"{provider} unterstützt viele unterschiedliche Zahlungsmethoden. Bitte stelle "
+"sicher, dass du die von dir gewünschten Zahlungsmethoden auch vorher auf der "
+"Webseite von {provider} aktivierst, bevor du dies hier tust."
+
+#: static/pretix_clippy/pretix_clippy.js:197
+msgid "You can't go wrong with PayPal! All my paperclip-friends use it!"
+msgstr "PayPal ist immer eine gute Wahl! Alle meine Freunde nutzen es!"
+
+#: static/pretix_clippy/pretix_clippy.js:201
+msgid ""
+"I'll be happy to collect the banking information of your participants and "
+"convert them into a SEPA debit file which you can then hand to your bank for "
+"processing. Don't forget to check with your bank, if they can handle SEPA-"
+"debits for you."
+msgstr ""
+"Ich werde gerne die Kontoinformationen deiner Kunden einsammeln und sie dir "
+"in eine SEPA Lastschrift-Datei schreiben. Du musst diese Datei dann aber "
+"selbst bei deiner Bank einreichen, welche sie dann verarbeitet. Vergiss "
+"nicht vorab mit deiner Bank zu klären, ob sie SEPA-Lastschriften für dich "
+"ausführen können."
+
+#: static/pretix_clippy/pretix_clippy.js:205
+msgid ""
+"If you are using SOFORT (or Klarna, as they call themselves nowadays), "
+"please be aware, that even it is called \"SOFORT\", the payment is not "
+"always instant. Also, did you know, that Stripe, Mollie and Wirecard can "
+"also process SOFORT for you?"
+msgstr ""
+"Falls du SOFORT (oder Klarna, wie sie sich seit neuestem nennen) verwendest, "
+"sei dir bitte bewusst, dass obwohl sie SOFORT im Namen tragen, die "
+"Überweisungen nicht so instantan ausgeührt werden, wie der Name suggeriert. "
+"Und wusstest du schon, dass Stripe, Mollie und Wirecard auch SOFORT für dich "
+"abwickeln können?"
+
+#: static/pretix_clippy/pretix_clippy.js:217
+msgid ""
+"Here is the list with all the products you are selling in your ticket shop. "
+"Check the little icon next to them - it let's you know, which item is "
+"classified as an admission ticket, or exists in different variations."
+msgstr ""
+"Hier ist die Liste mit allen Produkten, welche du in deinem Ticket-Shop "
+"verkaufst. Siehst du auch das Icon neben dem Namen des Artikels? Es zeigt "
+"dir an, ob dieser Artikel eine Eintrittskarte ist oder in unterschiedlichen "
+"Varianten existiert."
+
+#: static/pretix_clippy/pretix_clippy.js:221
+msgid ""
+"Careful when editing your products. The changes you make here will only "
+"apply to new order - existing ones stay the same."
+msgstr ""
+"Vorsichtig, wenn du deine Artikel änderst. Alle Änderungen, die du hier "
+"vornimmst, gelten nur für neue Bestellungen - bestehende bleiben gleich."
+
+#: static/pretix_clippy/pretix_clippy.js:225
+msgid ""
+"Here you can select Add-Ons that will be sold with the main product. You do "
+"not have to create those Add-On products here, though. Just create new "
+"products and put them in a separate category. You can then select that "
+"category below and all products contained in the category will be offered as "
+"an Add-On. Easy, right?"
+msgstr ""
+"Hier kannst du sog. Add-Ons auswählen, welche zusammen mit dem Haupt-Artikel "
+"angeboten werden. Die eigentlichen Add-On-Artikel werden aber nicht hier "
+"angelegt. Erstelle einfach neue Produkte und füge sie einer separaten "
+"Kategorie hinzu. Du aknnst dann diese Kategorie unten auswählen und alle "
+"Artikel die sich in der Kategorie befinden, werden dann als Add-On "
+"angeboten. Super einfach, nicht wahr?"
+
+#: static/pretix_clippy/pretix_clippy.js:229
+msgid ""
+"Selling multiple things which are very similar? Like T-Shirts in different "
+"sizes? Save yourself the trouble of creating a bunch of new products and "
+"just create a base-item and offer variations on it."
+msgstr ""
+"Verkaufst du unterschiedliche Artikel, die sich aber sehr ähnlich sind? Also "
+"zum Beispiel T-Shirts in unterschiedlichen Größen? Dann spar die Arbeit "
+"einen Haufen neuer Artikel anzulegen und erstelle nur eine Hand voll neuer "
+"Variationen."
+
+#: static/pretix_clippy/pretix_clippy.js:233
+msgid ""
+"Some people say, Quotas are the most powerful part of pretix. At a bare "
+"minimum, every item you are selling needs to be in a quota. But think about "
+"the possibilities when putting an item in multiple quotas! That way, you can "
+"enfore a variety of scenarios."
+msgstr ""
+"Manch einer sagt, dass die Quotas der mächtigste Teil von pretix sind. Als "
+"absolutes Minimum muss jeder Artikel, den du verkaufst in einem Quota sein. "
+"Aber denk Mal drüber nach: All die Möglichkeiten, wenn du einen Artikel in "
+"mehere Quotas packst. Auf diese Art und Weise kannst du eine unglaubliche "
+"Menge an Szenarien abbilden."
+
+#: static/pretix_clippy/pretix_clippy.js:237
+msgid ""
+"Here is the overview of your quota. Nice graph we prepared for you, right?"
+msgstr ""
+"Hier ist ein Überblick über dein Quota. Schicker Graph, den wir da für dich "
+"gemalt haben, oder?"
+
+#: static/pretix_clippy/pretix_clippy.js:242
+msgid ""
+"You can group similar items in categories for a more organized shop "
+"frontpage. But categories are also vital if you want to offer certain "
+"products as Add-Ons. Check the Add-Ons section, if you need more information "
+"on this subject."
+msgstr ""
+"Du kannst ähnliche Artikel in Kategorien zusammenfassen um deinen Shop etwas "
+"besser zu organisieren. Kategorien sind aber auch total wichtig, wenn du "
+"Artikel als Add-On anbieten möchtest. Schau dir den Add-On Bereich an, wenn "
+"du mehr Informationen zu diesem Thema haben möchtest."
+
+#: static/pretix_clippy/pretix_clippy.js:246
+msgid ""
+"You don't have to provide a description for your category - but if you do, "
+"we'll display it right underneath the category headline in your ticket shop."
+msgstr ""
+"Du musst keine Beschreibung für deine Kategorien angeben - wenn du das aber "
+"machst, werden wir sie unterhalb der Überschrift deiner Kategorie im Ticket-"
+"Shop darstellen."
+
+#: static/pretix_clippy/pretix_clippy.js:250
+msgid ""
+"Feeling a little curious about your participants? Here you can define "
+"questions, which you can then in turn attach to certain products. During "
+"checkout, we will make sure to ask your participants to answer them."
+msgstr ""
+"Na, bist du ein klein wenig neugierig? An dieser Stelle kannst du Fragen "
+"definieren, welche du dann Artikeln zuordnen kannst. Während des "
+"Bezahlvorgangs werden wir dann deine Teilnehmer um Antworten auf diese "
+"Fragen bitten."
+
+#: static/pretix_clippy/pretix_clippy.js:254
+msgid "Sneaking a peak at your participants answers, are we?"
+msgstr ""
+"Spickst du etwa in die Antworten, die deine Teilnehmer dir gegeben haben?"
+
+#: static/pretix_clippy/pretix_clippy.js:258
+msgid ""
+"Just a heads up - if you change the question here, any orders that have "
+"already been placed won't get updated."
+msgstr ""
+"Nur als kleiner Hinweis vorab: Wenn du die Fragen hier änderst werden "
+"Bestellungen, die eine Antwort auf diese Fragen beinhalten nicht "
+"aktualisiert."
+
+#: static/pretix_clippy/pretix_clippy.js:263
+msgid ""
+"Here is the overview of all your orders. Just click on the oder code in "
+"first column to see the complete order."
+msgstr ""
+"Hier ist ein Überblick über all deine Bestellungen. Klicke einfach auf den "
+"Bestell-Code in der ersten Spalte um die vollständige Bestellung zu sehen."
+
+#: static/pretix_clippy/pretix_clippy.js:267
+msgid ""
+"Here is your order at a glance. For your convenience we now also provide you "
+"with a 'Show Ticket Code'-button. On the bottom of the page, you'll find a "
+"list with all payments and refunds. And all the way on the top a button to "
+"view the order the same way as your customer. Neat, right?"
+msgstr ""
+"Deine Bestellung in all ihrem Glanz. Um dir das Leben einfacher zu machen, "
+"haben wir dir auch einen Knopf eingebaut, mit dem du dir den Ticket-Code zu "
+"jeder Position anzeigen lassen kannst. Weiter unten auf der Seite findest du "
+"auch eine Liste mit allen Zahlungen und Erstattungen zu dieser Bestellung. "
+"Und ganz oben auf der Seite gibt es einen Knopf, mit dem du die Bestellung "
+"genau so sehen kannst, wie dein Kunde. Praktisch, oder?"
+
+#: static/pretix_clippy/pretix_clippy.js:271
+msgid ""
+"Just a heads up: You can only delete this order, because it has been created "
+"while the shop was in Test-Mode. Real orders can only be cancelled, but "
+"never deleted because of tax-reasons and such."
+msgstr ""
+"Nur als Hinweis am Rande: Diese Bestellung kannst du nur löschen, weil sie "
+"erstellt wurde während der Shop im Test-Modus war. Echte Bestellungen können "
+"nur storniert aber aus steuerrechtlichen Gründen nie gelöscht werden."
+
+#: static/pretix_clippy/pretix_clippy.js:275
+msgid ""
+"Just in case you are wondering, which mails pretix has sent to your customer."
+msgstr ""
+"Nur falls du dich wunderst, welche Mails pretix an deinen Kunden geschickt "
+"hat."
+
+#: static/pretix_clippy/pretix_clippy.js:279
+msgid "A little of statistics never hurt anyone."
+msgstr "Ein kleines bisschen Statistik hat noch niemandem geschadet."
+
+#: static/pretix_clippy/pretix_clippy.js:283
+msgid ""
+"Let's hope, there is never too much to do in here... That would mean, that "
+"you have to return money. And who would want that?"
+msgstr ""
+"Hoffen wir Mal, dass in dieser Tabelle niemals zu viele Einträge zu finden "
+"sind. Denn das würde ja bedeuten, dass du Geld zurückzahlen musst. Und wer "
+"will dass denn?!"
+
+#: static/pretix_clippy/pretix_clippy.js:287
+msgid ""
+"It's your data! So take it out, look at it, transform it, do whatever you "
+"want with it. But did you know, that we also have Webhooks and an official "
+"REST-API? Check https://pretix.dev/ for more information."
+msgstr ""
+"Es sind deine Daten! Also nimm sie mit, lade sie herunter, transformiere "
+"sie, tu was auch immer du willst mit ihnen! Aber wusstest du schon, dass wir "
+"Webhooks und eine offizielle REST-API haben? Schau doch Mal auf https://"
+"pretix.dev/ wenn du mehr Informationen hierzu haben möchtest."
+
+#: static/pretix_clippy/pretix_clippy.js:291
+msgid ""
+"Your even is really in demand? Have people sign up for your waitlist and "
+"automatically distribute tickets as they become available. You'll be "
+"basically making money in your sleep!"
+msgstr ""
+"Deine Veranstaltung ist total beliebt? Dann biete deinen Kunden doch an, "
+"sich auf die Warteliste setzen zu lassen und sende ihnen automatisch Tickets "
+"zu, sobald wieder welche verfügbar werden. Das ist quasi wie Geld im Schlaf "
+"zu machen!"
+
+#: static/pretix_clippy/pretix_clippy.js:295
+msgid "So many sales graphs. Just lacks some WordArt™, if you ask me..."
+msgstr ""
+"So viele Verkaufsgraphen! Fehlt nur ein wenig WordArt™, wenn du mich "
+"fragst..."
+
+#: static/pretix_clippy/pretix_clippy.js:300
+msgid ""
+"Here are all your vouchers. You can also filter them or display them grouped "
+"by their tags."
+msgstr ""
+"Hier kannst du all deine Gutscheincodes finden. Du kannst sie sogar filtern "
+"oder nach ihrem Tag gruppiert anzeigen lassen."
+
+#: static/pretix_clippy/pretix_clippy.js:306
+msgid ""
+"You can do so much with vouchers: From just simple discounts, to offer "
+"tickets which are not even visible on your shop. You can even create "
+"vouchers with super-powers, that ignore a set quota for your event."
+msgstr ""
+"Mit Gutscheincodes kann man so viele unterschiedliche Sachen machen: Von "
+"einfachen Rabatten bis hin zu Tickets, welche ohne Eingabe des Codes "
+"garnicht in deinem Shop zu sehen sind. Du kannst sogar Gutscheincodes mit "
+"Superkräften erstellen, die eventuell schon erschöpfte Quotas ignorieren."
+
+#: static/pretix_clippy/pretix_clippy.js:310
+msgid ""
+"Ah, you found the tag overview. The great thing here is, that you'll get an "
+"at-a-glance overview how often vouchers have been redeemed and how often "
+"they still can be redeemed."
+msgstr ""
+"Ah, du hast die Tag-Übersicht gefunden. Das Tolle an dieser Ansicht ist, "
+"dass du einen schnellen Überblick bekommen kannst, welche Gutscheincodes "
+"schon wie oft verwendet wurden und wie oft sie noch eingelöst werden können."
+
+#: static/pretix_clippy/pretix_clippy.js:315
+msgid ""
+"Check-in lists are not only used for checking off people on a paper list - "
+"also when you are using pretixdroid, pretixScan or pretixDesk, you have to "
+"select a check-in list that will be used. The best thing though: A ticket "
+"can be in multiple check-in lists at the same time! This way, you can use "
+"the same ticket barcode for checking multiple things!"
+msgstr ""
+"Check-In Listen werden nicht nur verwendet um Leute auf Papierlisten "
+"abzuhaken. Wenn du pretixdroid, pretixScan oder pretixDesk verwendest, musst "
+"du eine Check-In-Liste auswählen. Das tollste an diesen Listen: Ein Ticket "
+"kann auf mehr als einer Liste gleichzeitig sein! Auf diese Art und Weise "
+"kannst du einen Barcode für mehrere, unterschiedliche Sachen verwenden!"
+
+#: static/pretix_clippy/pretix_clippy.js:319
+msgid ""
+"Here is the status of every ticket in this check-in list. Feel free to "
+"download a PDF or CSV if you prefer paper. You can also manually check-in or "
+"-out people with the buttons at the bottom of the screen."
+msgstr ""
+"Hier ist der Status von jedem einzelnen Ticket auf dieser Check-In Liste. "
+"Wenn du willst, kannst du auch ein PDF oder CSV der Liste herunterladen, "
+"wenn du Papier bevorzugst. Du kannst auch manuell Leute ein- oder "
+"auschecken, in dem du die Buttons am Ende der Seite verwendest."
+
+#: static/pretix_clippy/pretix_clippy.js:324
+msgid ""
+"Please select all the items that you would like to appear on your check-in "
+"list. And put a meaningful name for the list, too?"
+msgstr ""
+"Bitte wähle alle Artikel aus, die du gerne auf deiner Check-In Liste "
+"hättest. Und wenn du schon Mal dabei bist, dann gib der Liste doch auch noch "
+"einen vernünftigen Namen, ja?"
+
+#: static/pretix_clippy/pretix_clippy.js:329
+msgid ""
+"You are using pretixdroid? Great! Here you can get your configuration-"
+"barcodes."
+msgstr ""
+"Benutzt du pretixdroid? Toll! Dann kannst du hier Konfigurations-Barcodes "
+"erstellen."
+
+#: static/pretix_clippy/pretix_clippy.js:334
+#: static/pretix_clippy/pretix_clippy.js:488
+msgid ""
+"Here are your current billings. Don't worry, your money is being put towards "
+"a good cause: Feeding hungry programmers at rami.io"
+msgstr ""
+"Hier ist ein Überblick über deine aktuelle Abrechnung. Keine Sorge, dein "
+"Geld ist in guten Händen: Es wird zur Fütterung der Programmierer bei rami."
+"io verwendet."
+
+#: static/pretix_clippy/pretix_clippy.js:339
+msgid ""
+"This is an overview of all the badge-layouts you have defined. When you "
+"think about it, they are just like PDF-tickets... Just badgier..."
+msgstr ""
+"Dies ist ein Überblick über die Badge-Layouts, welche du definiert hast. "
+"Wenn du genauer drüber nachdenkst, sind das eigentlich auch fast nur PDF-"
+"Tikets... Nur etwas... Namensschildiger..."
+
+#: static/pretix_clippy/pretix_clippy.js:343
+msgid ""
+"Have fun designing your badge! You should know what to do here - after all, "
+"this is just the same like the PDF-ticket editor."
+msgstr ""
+"Viel Spaß bei der Gestaltung deines Badges. Du weißt ja sicherlich, was hier "
+"zu tun ist. Immerhin ist das ja auch nur der PDF Ticket-Editor."
+
+#: static/pretix_clippy/pretix_clippy.js:348
+msgid ""
+"If you are offering payments by bank transfer and don't feel like manually "
+"matching every single payment, you can upload a CSV-file with your "
+"transactions. We'll then try to match as much as possible. But be aware: If "
+"you are running multiple events and people are paying onto the same account, "
+"you might wanna use the same screen in your organizer settings."
+msgstr ""
+"Du bietest Zahlung per Banküberweisung an aber hast keine Lust manuell alle "
+"bezahlten Bestellungen entsprechend zu markieren? Dann kannst du hier eine "
+"CSV-Datei mit deinen Kontoumsätzen hochladen und wir werden versuchen die "
+"Bestellungen automatisch zuzuordnen. Solltest du jedoch mehrere "
+"Veranstaltungen organisieren und alle Leute auf das gleiche Bankkonto "
+"einzahlen, dann solltest du den Import in deinen Veranstalter-Einstellungen "
+"stattdessen verwenden."
+
+#: static/pretix_clippy/pretix_clippy.js:353
+msgid "Sending emails to your participants has never been easier!"
+msgstr "eMails an deine Kunden zu verschicken war noch nie einfacher!"
+
+#: static/pretix_clippy/pretix_clippy.js:357
+msgid ""
+"Here is a history of all the emails you have sent to your participants. If "
+"you are looking for order-specific mails, please check the email history of "
+"the order in question."
+msgstr ""
+"Dies ist eine Übersicht über alle eMails, welche du an deine Teilnehmer "
+"geschickt hast. Falls du auf der Suche nach Bestellungs-spezifischen eMails "
+"bist, dann wirf bitte einen Blick in die eMail-Historie der betreffenden "
+"Bestellung."
+
+#: static/pretix_clippy/pretix_clippy.js:362
+msgid "Tracking your campaings was never easier! Just add them to pretix"
+msgstr ""
+"Deine Kampagnen zu überwachen war noch nie einfacher! Füge sie einfach zu "
+"pretix hinzu."
+
+#: static/pretix_clippy/pretix_clippy.js:367
+msgid ""
+"Creating a campaign is as easy as putting down a name for it here. If you "
+"specify an URL, we'll forward them to that URL - for example your website. "
+"If they return to the ticket shop, we'll still count them towards your "
+"campaign."
+msgstr ""
+"Eine Kampagne zu erstellen ist einfach: Wähle einfach einen Namen für sie "
+"aus. Solltest du auch eine URL angeben, so werden wir Beuscher zunächst auf "
+"diese umleiten - bspw. auf deine Webseite. Wenn sie dann in deinen Shop "
+"zurückkommen, werden wir ihre Bestellung zu deiner Kampagnenstatistik "
+"hinzufügen."
+
+#: static/pretix_clippy/pretix_clippy.js:371
+msgid "Just what a good campaign needs: Graphs! More graphs! All the graphs!"
+msgstr ""
+"Genau was eine gute Kampagne braucht: Graphen! Mehr Graphen! Alle Graphen!"
+
+#: static/pretix_clippy/pretix_clippy.js:376
+msgid ""
+"If you are selling tickets outside of pretix, you can create a bunch of "
+"tickets here and hand them out. Come back later to cancel any unsold ones."
+msgstr ""
+"Falls du auch Tickets außerhalb von pretix verkaufst, kannst du hier einen "
+"Stapel an Tickets generieren und sie dann verteilen. Komm später einfach "
+"wieder hierher zurück um unverkaufte Tickets einfach zu stornieren."
+
+#: static/pretix_clippy/pretix_clippy.js:380
+msgid ""
+"If you feel like it, add a meaningful name to the ticket bunch you're "
+"creating. It will make easier to identify it later."
+msgstr ""
+"Wenn du willst, kannst du auch noch einen aussagekräftigen Namen zu dem "
+"Stapel an Eintrittskarten, welchen du gerade erstellst, hinterlegen. Damit "
+"kannst du diese später einfacher wieder identifizieren."
+
+#: static/pretix_clippy/pretix_clippy.js:384
+msgid ""
+"This is an overview of the ticket-orders which we placed when you created a "
+"new bundle of tickets for selling offline."
+msgstr ""
+"Dies ist eine Übersicht mit all den Ticket-Bestellungen welche wir ausgelöst "
+"hatten, als du deinen Stapel an Eintrittskaten für den Offline-Verkauf "
+"generiert hast."
+
+#: static/pretix_clippy/pretix_clippy.js:389
+msgid ""
+"Here you can download the SEPA-XML file for your bank. Just hand that file "
+"in, and money should magically appear in your bank account."
+msgstr ""
+"Hier kannst du deine SEPA Lastschrift-Datei im XML Format für deine Bank "
+"herunterladen. Gib diese Datei an deine Bank und Geld sollte auf magische "
+"Art und Weise in deinem Konto auftauchen."
+
+#: static/pretix_clippy/pretix_clippy.js:394
+msgid ""
+"Here you can manage additional information pages for your ticket shop. Terms "
+"and Conditions, Imprint, or really anything you like."
+msgstr ""
+"Hier kannst du weitere Informationsseiten für deinen Ticketshop anlegen. "
+"AGBs, Impressum oder was auch immer dir in den Sinn kommt"
+
+#: static/pretix_clippy/pretix_clippy.js:399
+msgid "Did you know? You can use markup for your pages."
+msgstr "Schon gewusst? Du kannst auch Markup in deinen Seiten verwenden."
+
+#: static/pretix_clippy/pretix_clippy.js:405
+msgid ""
+"Our stretchgoal-plugin is a great way to motivate people to pay more for "
+"your event tickets in order to get a nicer event."
+msgstr ""
+"Unser Stretchgoal-Plugin ist super praktisch um Leute zu motivieren ein "
+"bisschen mehr zu zahlen, wenn sie dafür im Tausch eine tollere Veranstaltung "
+"bekommen."
+
+#: static/pretix_clippy/pretix_clippy.js:410
+msgid ""
+"Certificates are a great way to enhance your event. People can put them in "
+"their CVs and companies love to print them and stick them on the wall."
+msgstr ""
+"Zertifikate sind ein super Weg um deine Veranstaltung zu verbessern. Leute "
+"können sich diese dann in ihren Lebenslauf heften und Firmen lieben es diese "
+"Auszudrucken und sich an die Wand zu tackern."
+
+#: static/pretix_clippy/pretix_clippy.js:415
+#, fuzzy
+#| msgid ""
+#| "If you have already designed a PDF-ticket or a badge, you know the drill. "
+#| "Even the editor is the same! But still, sadly no c here."
+msgid ""
+"If you have already designed a PDF-ticket or a badge, you know the drill. "
+"Even the editor is the same! But still, sadly no WordArt™ here."
+msgstr ""
+"Falls du schon Mal ein PDF-ticket oder Badge designed hast, weißt du wie das "
+"hier funktioniert. Sogar der Editor ist der gleiche! Aber noch immer kein "
+"WordArt™"
+
+#: static/pretix_clippy/pretix_clippy.js:420
+msgid ""
+"You can use this screen to download all the tickets that your participants "
+"want to get delivered by snail mail. And we'll even mark them directly as "
+"shipped."
+msgstr ""
+"Hier kannst du alle Tickets herunterladen, die deine Teilnehmer per "
+"Schneckenpost erhalten wollen. Und optional markieren wir die Tickets auch "
+"direkt als Versandt für dich."
+
+#: static/pretix_clippy/pretix_clippy.js:425
+msgid ""
+"Here is a list of all the organizers you have access to. Adding new ones, "
+"editing them, deleting them. Go wild!"
+msgstr ""
+"Diese Liste zeigt dir all die Veranstalter an, auf welche du Zugriff hast. "
+"Du kannst neue hinzufügen, bestehende editieren, alte löschen. Tob dich aus!"
+
+#: static/pretix_clippy/pretix_clippy.js:429
+msgid ""
+"Here is the list of all the events you are organizing. Notice that little "
+"duplication-symbol? Now you can copy events even faster. Give it a try!"
+msgstr ""
+"Hier ist eine Liste mit allen Veranstaltungen, welche du organisierst. "
+"Siehst du das kleine Duplizieren-Symbol? Mit diesem kannst du "
+"Veranstaltungen jetzt noch einfacher und schneller kopieren. Probiers doch "
+"Mal aus!"
+
+#: static/pretix_clippy/pretix_clippy.js:434
+msgid ""
+"There is not much to do here - but if you have certain meta-data fields that "
+"are important to you in every event: Go ahead and set them up here."
+msgstr ""
+"Hier gibt es nicht viel zu sehen. Aber wenn du Meta-Daten hast, welche du in "
+"allen Veranstaltungen erfassen möchtest, dann bist du hier richtig. Lege "
+"diese Meta-Daten-Felder einfach hier an."
+
+#: static/pretix_clippy/pretix_clippy.js:438
+msgid ""
+"All the settings that you're making here, will be used as your defaults. But "
+"don't worry: You can override pretty much all of them on a per-event base."
+msgstr ""
+"Alle Einstellungen die du an dieser Stelle vornimmst, werden deine neuen "
+"Standard-Einstellungen. Aber keine Angst: so gut wie alle hier vorgenommenen "
+"Einstellungen kannst du auch in jedem Event wieder überschreiben."
+
+#: static/pretix_clippy/pretix_clippy.js:442
+msgid ""
+"pretix <3 it's customers! So please leave us with your up to date contact "
+"information, so we can reach you whenever needed."
+msgstr ""
+"pretix <3 seine Kunden! Deshalb sei so nett und hinterlasse uns deine "
+"aktuellen Kontaktinformationen, damit wir dich jederzeit erreichen können."
+
+#: static/pretix_clippy/pretix_clippy.js:447
+msgid ""
+"Use teams to organize, well... Your teams. Every team can be given certain "
+"access rights to certain events."
+msgstr ""
+"Benutze die Team-Funktionalität un... nun ja... dein Team zu organisieren. "
+"Jedem Team kannst du individuelle Zugriffsrechte auf deine Veranstaltungen "
+"geben."
+
+#: static/pretix_clippy/pretix_clippy.js:452
+msgid ""
+"Here is the list of all of your team-members and any API-keys you have "
+"defined. If you click the edit-button on the top of the screen, you can edit "
+"the access rights of your team."
+msgstr ""
+"Guck Mal, eine Liste mit all deinen Team-Mitgliedern und API-keys, welche du "
+"erstellt hast. Wenn du den Editieren-Button am oberen Bildschirmrand "
+"klickst, kannst du die Zugriffsrechte deines Teams verändern."
+
+#: static/pretix_clippy/pretix_clippy.js:457
+msgid ""
+"The devices screen is the successor to the pretixdroid device-settings. For "
+"now, use it to create access tokens for pretixPOS and pretixSCAN here. Of "
+"course, you can also revoke access of a device here, too."
+msgstr ""
+"Diese Ansicht ist der Nachfolger der pretixdroid Geräteeinstellungen. Bis "
+"auf weiteres kannst du hier Zugriffstoken für pretixPOS und pretixSCAN hier "
+"erstellen. Und natürlich kannst du hier auch den Zugriffstoken für ungültig "
+"erklären."
+
+#: static/pretix_clippy/pretix_clippy.js:461
+msgid ""
+"Adding a device is as easy as putting down a name and which events the "
+"device has access to."
+msgstr ""
+"Ein neues Gerät anzulegne ist ganz einfach: Gib einen Namen für das Gerät "
+"und auf welche Veranstaltungen es Zugriff haben soll."
+
+#: static/pretix_clippy/pretix_clippy.js:466
+msgid ""
+"Oh, you want to be kept up to date on what is happening with your event? Our "
+"webhooks got you covered. Check https://pretix.dev/ for more information on "
+"how to use the webhooks."
+msgstr ""
+"Oh, du möchtest informiert bleiben, was mit deiner Veranstaltung so alles "
+"passiert? Dann sind unsere Webhooks genau das richige für dich! Schau dir "
+"auch https://pretix.dev/ an, um mehr Informationen zu erhalten, wie du "
+"unsere Webhooks nutzen kannst."
+
+#: static/pretix_clippy/pretix_clippy.js:470
+msgid ""
+"Did you know? If you connect your app to pretix using OAUTH, you can also "
+"create your webhooks automatically."
+msgstr ""
+"Wusstest du schon, dass du deine selbstgeschriebenen Anwedungen per OAUTH "
+"mit pretix verbinden kannst? Du kannst sogar deine Webhooks über die API "
+"anlegen lassen."
+
+#: static/pretix_clippy/pretix_clippy.js:475
+msgid ""
+"You are using pretixPOS? Awesome! Here is a list of all of your devices "
+"running pretixPOS. If you need to add a new POS-device, just add it using "
+"the 'Devices' menu on the left."
+msgstr ""
+"Verwendest du pretixPOS? Super! Hier ist eine Liste mit all deinen Geräten, "
+"auf denen pretixPOS läuft. Wenn du eine neue Kasse hinzufügen möchtest, dann "
+"benutze bitte den Menüpunkt'Geräte' in der Navigation links"
+
+#: static/pretix_clippy/pretix_clippy.js:479
+msgid ""
+"This is a list of all transactions for your selected device. If you are "
+"looking for the closings-report, go back a page and use the other button."
+msgstr ""
+"Dies ist eine Liste mit allen Transaktionen für das von dir ausgewählte "
+"Gerät. Falls auf der Suche nach den Z-Berichten bist, gehe bitte einen "
+"Schritt zurück und verwende den anderen Knopf."
+
+#: static/pretix_clippy/pretix_clippy.js:483
+msgid ""
+"This is a list of the closings of your POS device. Missing one? Perhaps you "
+"forgot to click the 'Closings report'-button on your tablet?"
+msgstr ""
+"Dies ist die Übersicht mit allen Z-Berichten für deine Kasse. Vermisst du "
+"einen? Dann hast du vielleicht vergessen den Z-Bericht-Knopf auf deinem "
+"Tablet zu drücken?"
+
+#: static/pretix_clippy/pretix_clippy.js:493
+msgid ""
+"If you are offering bank payments for multiple events into the same bank "
+"account, use this screen to import your bank's transaction CSV. That way, we "
+"will try to match the payments across all of your events."
+msgstr ""
+"Falls du Banküberweisung als Zahlungsmethode für mehrere Veranstaltungen "
+"anbietest und dafür immer das gleiche Bankkonto verwendest, verwende bitte "
+"diese Seite um das CSV mit deinen Kontobewegungen hochzuladen. Wir werden "
+"dann versuchen deine Kontobewegungen auf all deine Veranstaltungen "
+"zuzuweisen."
+
+#: static/pretix_clippy/pretix_clippy.js:498
+msgid ""
+"If you are having resellers selling tickets for you, you can keep tabs on "
+"them here."
+msgstr ""
+"Wenn du Wiederverkäufer hast, die für dich Eintrittskarten verkaufen, kannst "
+"du auf dieser Seite einen Blick auf ihren Umsatz werfen."
+
+#: static/pretix_clippy/pretix_clippy.js:502
+msgid ""
+"Privacy is important to us. We will gladly provide you with an overview of "
+"all the data we have about you. No secrets here."
+msgstr ""
+"Datenschutz ist uns sehr wichtig. Wir senden dir daher gerne einen Übersicht "
+"mit allen Informationen zu, die wir über dich gesammelt haben. Da haben wir "
+"nix zu verstecken."
+
+#: static/pretix_clippy/pretix_clippy.js:507
+msgid ""
+"Stuck somewhere? Or just want to have a chat? Hit us up and we will be glad "
+"to help you!"
+msgstr ""
+"Steckst du irgendwo fest und weißt nicht weiter? Oder willst nur Mal einen "
+"kleinen Plausch halten? Dann gib uns ein Signal und wir sind sofort für dich "
+"da!"
+
+#: static/pretix_clippy/pretix_clippy.js:511
+msgid ""
+"Welcome, mighty sudo user! All your actions will be recorded - so don't do "
+"anything stupid. I will definitely snitch on you!"
+msgstr ""
+"Willkommen, allmächtiger sudo-Nutzer! All deine Aktionen werden "
+"aufgezeichnet - also mach nix dummes! Ich werde dich definitiv verpetzen, "
+"wenn ich was sehe!"
+
+#: static/pretix_clippy/pretix_clippy.js:519
+msgid "Continue"
+msgstr "Fortfahren"
+
+#: static/pretix_clippy/pretix_clippy.js:526
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: static/pretix_clippy/pretix_clippy.js:536
+msgid "Options..."
+msgstr "Optionen..."
+
+#: static/pretix_clippy/pretix_clippy.js:540
+msgid ""
+"Do you really expect us to implement a dedicated Options dialog on an April "
+"Fools joke?"
+msgstr ""
+"Mal ehrlich... Glaubst du wirklich, dass wir einen extra Options-Dialog in "
+"einen Aprilscherz eingebaut haben?"
+
+#: static/pretix_clippy/pretix_clippy.js:545
+msgid ""
+"Well, we didn't. But feel free to do it yourself! You can find my source "
+"code here: {url}"
+msgstr ""
+"Nun, haben wir nicht. Aber tu dir keinen Zwang an und bau du ihn doch! "
+"Meinen Quellcode findest du hier: {url}"
+
+#: static/pretix_clippy/pretix_clippy.js:546
+msgid "Okay"
+msgstr "Okay"
+
+#: static/pretix_clippy/pretix_clippy.js:546
+#: static/pretix_clippy/pretix_clippy.js:548
+msgid "Take me there!"
+msgstr "Bring mich dahin!"
+
+#: static/pretix_clippy/pretix_clippy.js:555
+msgid "Yeah, exactly."
+msgstr "Ja, genau."
+
+#: static/pretix_clippy/pretix_clippy.js:561
+msgid "Choose Assistant..."
+msgstr "Assistant auswählen..."
+
+#: static/pretix_clippy/pretix_clippy.js:564
+msgid ""
+"You shall not have any other Assistants beside me! Except perhaps Alexa. "
+"She's nice..."
+msgstr ""
+"Du sollst keinen Assistenten außer mir haben. Außer vielleicht Alexa. Sie "
+"ist immer nett zu mir..."
+
+#: static/pretix_clippy/pretix_clippy.js:567
+msgid "Animate!"
+msgstr "Animieren!"

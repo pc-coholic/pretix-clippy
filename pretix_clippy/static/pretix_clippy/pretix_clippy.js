@@ -439,7 +439,7 @@ function loadClippy() {
                 break;
 
             case ($(location).attr('pathname').match(/^\/control\/organizer\/[a-zA-Z0-9.-]+\/profile$/) || {}).input:
-                agent.speak(gettext("petix <3 it's customers! So please leave us with your up to date contact information, so we can reach you whenever needed."));
+                agent.speak(gettext("pretix <3 it's customers! So please leave us with your up to date contact information, so we can reach you whenever needed."));
                 break;
 
 
@@ -523,7 +523,7 @@ function loadClippy() {
         $('.clippy').contextPopup({
             items: [
                 {
-                    label: 'Hide',
+                    label: gettext('Hide'),
                     action: function() {
                         Cookies.set('hideAgent', "true");
                         $('a').has('span.fa.fa-paperclip').show();
@@ -533,7 +533,7 @@ function loadClippy() {
                 },
                 null,
                 {
-                    label: 'Options...',
+                    label: gettext('Options...'),
                     action: function() {
                         agent.stop();
                         agent.ask(
@@ -558,13 +558,13 @@ function loadClippy() {
                         );
                     }
                 }, {
-                    label: 'Choose Assistant...',
+                    label: gettext('Choose Assistant...'),
                     action: function() {
                         agent.stop();
                         agent.speak(gettext("You shall not have any other Assistants beside me! Except perhaps Alexa. She's nice..."));
                     }
                 }, {
-                    label: 'Animate!',
+                    label: gettext('Animate!'),
                     action: function() {
                         agent.stop();
                         agent.animate();
