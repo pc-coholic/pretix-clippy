@@ -66,7 +66,7 @@ msgstr ""
 "Als Zweites müssen die Sprachen ausgewählt werden, in welchen der Ticketshop "
 "verfügbar sein wird. Du kannst diese Einstellung auch später noch ändern - "
 "aber wenn du diese Einstellung schon jetzt korrekt auswählst, wirst du im "
-"folgenden direkt gebeten alle relevanten Texte in allen Sprachen einzugeben."
+"Folgenden direkt gebeten alle relevanten Texte in allen Sprachen einzugeben."
 
 #: static/pretix_clippy/pretix_clippy.js:100
 msgid ""
@@ -105,7 +105,7 @@ msgid ""
 "In this step, you will be asked more detailed questions about your event. In "
 "particular, you can fill in the following fields"
 msgstr ""
-"In diesem Schritt wirst du nach detailierteren Informationen zu deiner "
+"In diesem Schritt wirst du nach detaillierteren Informationen zu deiner "
 "Veranstaltung gefragt. Insbesondere kannst du folgende Felder ausfüllen:"
 
 #: static/pretix_clippy/pretix_clippy.js:116
@@ -245,7 +245,7 @@ msgid ""
 "easier!"
 msgstr ""
 "Hast du schon unseren tollen, neuen Duplizieren-Knopf gesehen? Er macht das "
-"Klonen Veranstaltungen noch viel einfacher!"
+"Klonen von Veranstaltungen noch viel einfacher!"
 
 #: static/pretix_clippy/pretix_clippy.js:155
 msgid "Great event you've got there!"
@@ -293,7 +293,7 @@ msgid ""
 "An excellent choice for a payment method! Especially if you offer payment at "
 "the door."
 msgstr ""
-"Eine exzellente Wahl für eine Zahlungsmethode! Besonders wenn du Vor-Ort "
+"Eine exzellente Wahl für eine Zahlungsmethode! Besonders wenn du Vor-Ort-"
 "Zahlung anbietest."
 
 #: static/pretix_clippy/pretix_clippy.js:181
