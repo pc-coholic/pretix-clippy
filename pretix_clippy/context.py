@@ -8,7 +8,7 @@ from pretix.control.signals import html_head
 
 def contextprocessor(request):
     ctx = {}
-    if not settings.DEBUG and now().astimezone(pytz.timezone('Europe/Berlin')).date().isoformat() != '2019-04-01':
+    if not settings.DEBUG and not 'staging.pretix.eu' in settings.SITE_URL and now().astimezone(pytz.timezone('Europe/Berlin')).date().isoformat() != '2019-04-01':
         return ctx
 
     if request.path.startswith('/control/'):
