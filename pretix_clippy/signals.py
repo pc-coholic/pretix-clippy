@@ -10,7 +10,7 @@ def html_page_start(sender, request=None, **kwargs):
     return template.render({})
 
 
-@receiver(nav_topbar, dispatch_uid="support_nav")
+@receiver(nav_topbar, dispatch_uid="clippy_nav")
 def control_support_nav(sender, request=None, **kwargs):
     return [
         {
