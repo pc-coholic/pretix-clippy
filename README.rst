@@ -24,7 +24,7 @@ Acknowledgements
 - `Perhanid's clippy.js fork`_, based on `smore Inc's clippy.js`_
 - `Joe Walnes' jquery-simple-context-menu`_
 - `js-cookie`_
-- `_Shalom Yerushalmy's css-wordart`_
+- `Shalom Yerushalmy's css-wordart`_
 - `Raphael Michel`_ for the very dirty `context_processors` hack
 
 License
