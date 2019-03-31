@@ -1,9 +1,15 @@
+import pytz
+from django.conf import settings
 from django.template.loader import get_template
+from django.utils.timezone import now
+
 from pretix.control.signals import html_head
 
 
 def contextprocessor(request):
     ctx = {}
+    if not settings.DEBUG and now().astimezone(pytz.timezone('Europe/Berlin')).date().isoformat() != '2019-04-01':
+        return ctx
 
     if request.path.startswith('/control/'):
         _html_head = []
