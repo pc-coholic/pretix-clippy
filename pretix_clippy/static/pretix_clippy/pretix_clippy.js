@@ -21,6 +21,7 @@ function loadClippy() {
     $('.navbar-brand:first').addClass('text');
 
     clippy.load('Clippy', function(agent) {
+
         agent.show();
 
         var forms = $('form');
@@ -572,5 +573,5 @@ function loadClippy() {
                 },
             ]
         });
-    }, function() {}, '/static/pretix_clippy/clippy-js/agents/Clippy');
+    }, function() {}, '/static/pretix_clippy/clippy-js/agents/ClippyMute');
 }
